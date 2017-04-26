@@ -1,0 +1,436 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DF001E171EAACFA300C18D47 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF001E161EAACFA300C18D47 /* AppDelegate.swift */; };
+		DF001E191EAACFA300C18D47 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF001E181EAACFA300C18D47 /* MapViewController.swift */; };
+		DF001E1C1EAACFA300C18D47 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF001E1A1EAACFA300C18D47 /* Main.storyboard */; };
+		DF001E1F1EAACFA300C18D47 /* SchtGo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DF001E1D1EAACFA300C18D47 /* SchtGo.xcdatamodeld */; };
+		DF001E211EAACFA300C18D47 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF001E201EAACFA300C18D47 /* Assets.xcassets */; };
+		DF001E241EAACFA300C18D47 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF001E221EAACFA300C18D47 /* LaunchScreen.storyboard */; };
+		DF001E2C1EAAD6EF00C18D47 /* SchtPagerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF001E2B1EAAD6EF00C18D47 /* SchtPagerController.swift */; };
+		DF001E2E1EAADDC800C18D47 /* SchtPulleyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF001E2D1EAADDC800C18D47 /* SchtPulleyViewController.swift */; };
+		DFEFBB8D1EAAE803007095E3 /* Designables.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFEFBB8C1EAAE803007095E3 /* Designables.swift */; };
+		DFEFBB8F1EAAE8D4007095E3 /* NewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFEFBB8E1EAAE8D4007095E3 /* NewViewController.swift */; };
+		DFEFBB911EAAEE62007095E3 /* Core.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFEFBB901EAAEE62007095E3 /* Core.swift */; };
+		DFEFBB931EAAF83B007095E3 /* Scht+Annotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFEFBB921EAAF83B007095E3 /* Scht+Annotation.swift */; };
+		DFEFBB951EAAFCCB007095E3 /* NewSchtTableTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFEFBB941EAAFCCB007095E3 /* NewSchtTableTableViewController.swift */; };
+		DFEFBB9B1EAB14B0007095E3 /* ImagePickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFEFBB9A1EAB14B0007095E3 /* ImagePickerViewController.swift */; };
+		F9A2C1BEE4D914BD312D0967 /* Pods_SchtGo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7F798CB8EC2595685F8922D /* Pods_SchtGo.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7E25E32F70F56E197286D270 /* Pods-SchtGo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SchtGo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SchtGo/Pods-SchtGo.debug.xcconfig"; sourceTree = "<group>"; };
+		8C77D31CA696D8DB5DBD4685 /* Pods-SchtGo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SchtGo.release.xcconfig"; path = "Pods/Target Support Files/Pods-SchtGo/Pods-SchtGo.release.xcconfig"; sourceTree = "<group>"; };
+		D7F798CB8EC2595685F8922D /* Pods_SchtGo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SchtGo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF001E131EAACFA300C18D47 /* SchtGo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SchtGo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF001E161EAACFA300C18D47 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DF001E181EAACFA300C18D47 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		DF001E1B1EAACFA300C18D47 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DF001E1E1EAACFA300C18D47 /* SchtGo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SchtGo.xcdatamodel; sourceTree = "<group>"; };
+		DF001E201EAACFA300C18D47 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DF001E231EAACFA300C18D47 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DF001E251EAACFA300C18D47 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF001E2B1EAAD6EF00C18D47 /* SchtPagerController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SchtPagerController.swift; sourceTree = "<group>"; };
+		DF001E2D1EAADDC800C18D47 /* SchtPulleyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SchtPulleyViewController.swift; sourceTree = "<group>"; };
+		DFEFBB8C1EAAE803007095E3 /* Designables.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Designables.swift; sourceTree = "<group>"; };
+		DFEFBB8E1EAAE8D4007095E3 /* NewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewViewController.swift; sourceTree = "<group>"; };
+		DFEFBB901EAAEE62007095E3 /* Core.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Core.swift; sourceTree = "<group>"; };
+		DFEFBB921EAAF83B007095E3 /* Scht+Annotation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Scht+Annotation.swift"; sourceTree = "<group>"; };
+		DFEFBB941EAAFCCB007095E3 /* NewSchtTableTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewSchtTableTableViewController.swift; sourceTree = "<group>"; };
+		DFEFBB9A1EAB14B0007095E3 /* ImagePickerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImagePickerViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DF001E101EAACFA300C18D47 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9A2C1BEE4D914BD312D0967 /* Pods_SchtGo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		054ABD73A763C31FFAC95024 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D7F798CB8EC2595685F8922D /* Pods_SchtGo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DF001E0A1EAACFA300C18D47 = {
+			isa = PBXGroup;
+			children = (
+				DF001E151EAACFA300C18D47 /* SchtGo */,
+				DF001E141EAACFA300C18D47 /* Products */,
+				F64FAD1825CAE25CCA309360 /* Pods */,
+				054ABD73A763C31FFAC95024 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		DF001E141EAACFA300C18D47 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DF001E131EAACFA300C18D47 /* SchtGo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DF001E151EAACFA300C18D47 /* SchtGo */ = {
+			isa = PBXGroup;
+			children = (
+				DF001E161EAACFA300C18D47 /* AppDelegate.swift */,
+				DF001E181EAACFA300C18D47 /* MapViewController.swift */,
+				DF001E1A1EAACFA300C18D47 /* Main.storyboard */,
+				DF001E201EAACFA300C18D47 /* Assets.xcassets */,
+				DF001E221EAACFA300C18D47 /* LaunchScreen.storyboard */,
+				DF001E251EAACFA300C18D47 /* Info.plist */,
+				DF001E1D1EAACFA300C18D47 /* SchtGo.xcdatamodeld */,
+				DF001E2B1EAAD6EF00C18D47 /* SchtPagerController.swift */,
+				DF001E2D1EAADDC800C18D47 /* SchtPulleyViewController.swift */,
+				DFEFBB8C1EAAE803007095E3 /* Designables.swift */,
+				DFEFBB8E1EAAE8D4007095E3 /* NewViewController.swift */,
+				DFEFBB901EAAEE62007095E3 /* Core.swift */,
+				DFEFBB921EAAF83B007095E3 /* Scht+Annotation.swift */,
+				DFEFBB941EAAFCCB007095E3 /* NewSchtTableTableViewController.swift */,
+				DFEFBB9A1EAB14B0007095E3 /* ImagePickerViewController.swift */,
+			);
+			path = SchtGo;
+			sourceTree = "<group>";
+		};
+		F64FAD1825CAE25CCA309360 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7E25E32F70F56E197286D270 /* Pods-SchtGo.debug.xcconfig */,
+				8C77D31CA696D8DB5DBD4685 /* Pods-SchtGo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DF001E121EAACFA300C18D47 /* SchtGo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF001E281EAACFA300C18D47 /* Build configuration list for PBXNativeTarget "SchtGo" */;
+			buildPhases = (
+				FADA8F32B0DDB1E48BAE737D /* [CP] Check Pods Manifest.lock */,
+				DF001E0F1EAACFA300C18D47 /* Sources */,
+				DF001E101EAACFA300C18D47 /* Frameworks */,
+				DF001E111EAACFA300C18D47 /* Resources */,
+				D391539A9CB763C1262B0514 /* [CP] Embed Pods Frameworks */,
+				200A34E0153C95D7B209421D /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SchtGo;
+			productName = SchtGo;
+			productReference = DF001E131EAACFA300C18D47 /* SchtGo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DF001E0B1EAACFA300C18D47 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = BW;
+				TargetAttributes = {
+					DF001E121EAACFA300C18D47 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = SUMH54A6Q9;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = DF001E0E1EAACFA300C18D47 /* Build configuration list for PBXProject "SchtGo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DF001E0A1EAACFA300C18D47;
+			productRefGroup = DF001E141EAACFA300C18D47 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DF001E121EAACFA300C18D47 /* SchtGo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DF001E111EAACFA300C18D47 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF001E241EAACFA300C18D47 /* LaunchScreen.storyboard in Resources */,
+				DF001E211EAACFA300C18D47 /* Assets.xcassets in Resources */,
+				DF001E1C1EAACFA300C18D47 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		200A34E0153C95D7B209421D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SchtGo/Pods-SchtGo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D391539A9CB763C1262B0514 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SchtGo/Pods-SchtGo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FADA8F32B0DDB1E48BAE737D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DF001E0F1EAACFA300C18D47 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF001E2C1EAAD6EF00C18D47 /* SchtPagerController.swift in Sources */,
+				DF001E191EAACFA300C18D47 /* MapViewController.swift in Sources */,
+				DFEFBB8F1EAAE8D4007095E3 /* NewViewController.swift in Sources */,
+				DFEFBB951EAAFCCB007095E3 /* NewSchtTableTableViewController.swift in Sources */,
+				DF001E171EAACFA300C18D47 /* AppDelegate.swift in Sources */,
+				DFEFBB9B1EAB14B0007095E3 /* ImagePickerViewController.swift in Sources */,
+				DFEFBB931EAAF83B007095E3 /* Scht+Annotation.swift in Sources */,
+				DFEFBB8D1EAAE803007095E3 /* Designables.swift in Sources */,
+				DF001E2E1EAADDC800C18D47 /* SchtPulleyViewController.swift in Sources */,
+				DFEFBB911EAAEE62007095E3 /* Core.swift in Sources */,
+				DF001E1F1EAACFA300C18D47 /* SchtGo.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DF001E1A1EAACFA300C18D47 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF001E1B1EAACFA300C18D47 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DF001E221EAACFA300C18D47 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF001E231EAACFA300C18D47 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DF001E261EAACFA300C18D47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DF001E271EAACFA300C18D47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DF001E291EAACFA300C18D47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7E25E32F70F56E197286D270 /* Pods-SchtGo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = SUMH54A6Q9;
+				INFOPLIST_FILE = SchtGo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bigwangsmash.SchtGo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		DF001E2A1EAACFA300C18D47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8C77D31CA696D8DB5DBD4685 /* Pods-SchtGo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = SUMH54A6Q9;
+				INFOPLIST_FILE = SchtGo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bigwangsmash.SchtGo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DF001E0E1EAACFA300C18D47 /* Build configuration list for PBXProject "SchtGo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF001E261EAACFA300C18D47 /* Debug */,
+				DF001E271EAACFA300C18D47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF001E281EAACFA300C18D47 /* Build configuration list for PBXNativeTarget "SchtGo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF001E291EAACFA300C18D47 /* Debug */,
+				DF001E2A1EAACFA300C18D47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		DF001E1D1EAACFA300C18D47 /* SchtGo.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				DF001E1E1EAACFA300C18D47 /* SchtGo.xcdatamodel */,
+			);
+			currentVersion = DF001E1E1EAACFA300C18D47 /* SchtGo.xcdatamodel */;
+			path = SchtGo.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = DF001E0B1EAACFA300C18D47 /* Project object */;
+}

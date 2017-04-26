@@ -1,0 +1,15 @@
+PODS:
+  - Pager (1.1.1)
+  - Pulley (1.3.1)
+
+DEPENDENCIES:
+  - Pager
+  - Pulley
+
+SPEC CHECKSUMS:
+  Pager: 776fec79ffeb21a3b82c40a44b77d3c799308e19
+  Pulley: 99a45ad8aba14dafb2c6f4f16cb9667eb41c0919
+
+PODFILE CHECKSUM: c3bd3197b61f1af088c3ab772d92c96e48603d44
+
+COCOAPODS: 1.2.0
